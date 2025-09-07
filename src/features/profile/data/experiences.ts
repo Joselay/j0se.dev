@@ -67,6 +67,7 @@ export const EXPERIENCES: Experience[] = [
           "UI/UX Implementation",
           "Performance Optimization",
         ],
+        isExpanded: true,
       },
     ],
   },
