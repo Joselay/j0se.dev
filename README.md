@@ -1,8 +1,8 @@
-# [chanhdai.com](https://chanhdai.com)
+# Portfolio Project
 
-A minimal portfolio, component registry, and blog to showcase my work as a Design Engineer.
+A minimal portfolio, component registry, and blog based on the amazing work from [chanhdai.com](https://github.com/ncdai/chanhdai.com).
 
-Check out the live site: [chanhdai.com](https://chanhdai.com)
+**Credits**: This project is built upon the excellent foundation created by [ncdai](https://github.com/ncdai). All credit for the original design and implementation goes to the original author. Check out their live site: [chanhdai.com](https://chanhdai.com)
 
 <a href="https://frogdr.com/chanhdai.com?via=ncdai&utm_source=chanhdai.com">
   <picture>
