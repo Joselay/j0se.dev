@@ -1,6 +1,12 @@
 import Image from "next/image";
 import React from "react";
 
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
+
 import type { Experience } from "../../types/experiences";
 import { ExperiencePositionItem } from "./experience-position-item";
 
@@ -30,11 +36,16 @@ export function ExperienceItem({ experience }: { experience: Experience }) {
         </h3>
 
         {experience.isCurrentEmployer && (
-          <span className="relative flex items-center justify-center">
-            <span className="absolute inline-flex size-3 animate-ping rounded-full bg-info opacity-50" />
-            <span className="relative inline-flex size-2 rounded-full bg-info" />
-            <span className="sr-only">Current Employer</span>
-          </span>
+          <Tooltip>
+            <TooltipTrigger asChild>
+              <span className="relative flex items-center justify-center">
+                <span className="absolute inline-flex size-3 animate-ping rounded-full bg-info opacity-50" />
+                <span className="relative inline-flex size-2 rounded-full bg-info" />
+                <span className="sr-only">Current Employer</span>
+              </span>
+            </TooltipTrigger>
+            <TooltipContent>Currently working here</TooltipContent>
+          </Tooltip>
         )}
       </div>
 
