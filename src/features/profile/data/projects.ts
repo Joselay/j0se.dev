@@ -2,30 +2,28 @@ import type { Project } from "../types/projects";
 
 export const PROJECTS: Project[] = [
   {
-    id: "jelly-cinema",
-    title: "Jelly Cinema",
+    id: "cigardash",
+    title: "Cigardash",
     period: {
-      start: "06.2024",
-      end: "03.2025",
+      start: "06.2025",
     },
     link: "#",
-    skills: ["Mobile App", "Flutter", "Cinema", "Movie Streaming"],
+    skills: ["Web App", "Dashboard", "Analytics", "Business Intelligence"],
     description:
-      "Movie streaming and entertainment mobile application built with Flutter for comprehensive cinema experience.",
-    logo: "/icons/jelly.svg",
+      "Business dashboard application providing comprehensive analytics and data visualization for cigar retail management.",
+    logo: "/icons/cigardash.png",
   },
   {
-    id: "goody-shop",
-    title: "GOODY SHOP",
+    id: "go-by-wonderpass",
+    title: "GO. by Wonderpass",
     period: {
-      start: "08.2024",
-      end: "02.2025",
+      start: "03.2025",
     },
-    link: "https://apps.apple.com/kh/app/goody-shop/id1617240445",
-    skills: ["Mobile App", "E-commerce", "iOS", "Android"],
+    link: "#",
+    skills: ["Mobile App", "Flutter", "Banking", "Financial Services"],
     description:
-      "Mobile e-commerce app available on both App Store and Google Play Store. [Play Store](https://play.google.com/store/apps/details?id=com.coolbeans.goody&hl=en)",
-    logo: "/icons/goody.jpg",
+      "Mobile banking application integrating comprehensive financial services and digital payment solutions built with Flutter.",
+    logo: "/icons/go.jpg",
   },
   {
     id: "lumo-cinema",
@@ -51,6 +49,19 @@ export const PROJECTS: Project[] = [
       "Task management app built on Inertia.js with real-time WebSocket updates in 2025.",
   },
   {
+    id: "goody-shop",
+    title: "GOODY SHOP",
+    period: {
+      start: "08.2024",
+      end: "02.2025",
+    },
+    link: "https://apps.apple.com/kh/app/goody-shop/id1617240445",
+    skills: ["Mobile App", "E-commerce", "iOS", "Android"],
+    description:
+      "Mobile e-commerce app available on both App Store and Google Play Store. [Play Store](https://play.google.com/store/apps/details?id=com.coolbeans.goody&hl=en)",
+    logo: "/icons/goody.jpg",
+  },
+  {
     id: "nextstore-ecommerce",
     title: "NextStore ecommerce",
     period: {
@@ -61,6 +72,19 @@ export const PROJECTS: Project[] = [
     skills: ["E-commerce", "Digital Products", "Marketplace"],
     description:
       "Digital products marketplace (phones, desktops, MacBooks) built in 2024.",
+  },
+  {
+    id: "jelly-cinema",
+    title: "Jelly Cinema",
+    period: {
+      start: "06.2024",
+      end: "03.2025",
+    },
+    link: "#",
+    skills: ["Mobile App", "Flutter", "Cinema", "Movie Streaming"],
+    description:
+      "Movie streaming and entertainment mobile application built with Flutter for comprehensive cinema experience.",
+    logo: "/icons/jelly.svg",
   },
   {
     id: "foodfarm",
