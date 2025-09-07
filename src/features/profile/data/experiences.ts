@@ -50,15 +50,22 @@ export const EXPERIENCES: Experience[] = [
         },
         employmentType: "Full-time",
         icon: "code",
-        description: `- Developed frontend applications and user interfaces.
-- Worked on digital projects in Phnom Penh, Cambodia.
-- Collaborated with international teams and clients.`,
+        description: `- Developed Goody Ecommerce application with comprehensive shopping features and user experience.
+- Built Jelly Cinema application for movie streaming and entertainment services.
+- Implemented cross-platform mobile solutions using Flutter framework.
+- Ensured UI/UX consistency and adherence to mobile design standards.
+- Developed and maintained core features to enhance app functionality and user experience.
+- Integrated APIs and backend services for seamless data flow.
+- Optimized app performance and implemented responsive design patterns.
+- Collaborated with design and backend teams to deliver high-quality mobile applications.`,
         skills: [
-          "Frontend Development",
-          "JavaScript",
-          "React",
-          "International Collaboration",
-          "Digital Solutions",
+          "Flutter",
+          "Dart",
+          "Mobile Development",
+          "Cross-platform",
+          "API Integration",
+          "UI/UX Implementation",
+          "Performance Optimization",
         ],
       },
     ],
