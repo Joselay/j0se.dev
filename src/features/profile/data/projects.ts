@@ -1,11 +1,33 @@
 import type { Project } from "../types/projects";
 
-export const PROJECTS: Project[] = [
+const parseDate = (dateStr: string) => {
+  const [month, year] = dateStr.split(".");
+  return new Date(parseInt(year), parseInt(month) - 1);
+};
+
+const sortProjects = (projects: Project[]) => {
+  return [...projects].sort((a, b) => {
+    const aOngoing = !a.period.end;
+    const bOngoing = !b.period.end;
+
+    // Ongoing projects come first
+    if (aOngoing && !bOngoing) return -1;
+    if (!aOngoing && bOngoing) return 1;
+
+    // Within the same category (both ongoing or both completed), sort by newest start date
+    const aStart = parseDate(a.period.start);
+    const bStart = parseDate(b.period.start);
+    return bStart.getTime() - aStart.getTime();
+  });
+};
+
+const PROJECTS_RAW: Project[] = [
   {
     id: "cigardash",
     title: "Cigardash",
     period: {
       start: "06.2025",
+      end: "10.2025",
     },
     link: "#",
     skills: ["Web App", "Dashboard", "Analytics", "Business Intelligence"],
@@ -77,7 +99,7 @@ export const PROJECTS: Project[] = [
     id: "jelly-cinema",
     title: "Jelly Cinema",
     period: {
-      start: "06.2024",
+      start: "10.2024",
       end: "03.2025",
     },
     link: "#",
@@ -98,3 +120,5 @@ export const PROJECTS: Project[] = [
     description: "Food selling platform built in 2024.",
   },
 ];
+
+export const PROJECTS: Project[] = sortProjects(PROJECTS_RAW);
