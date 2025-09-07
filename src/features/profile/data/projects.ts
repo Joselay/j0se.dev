@@ -45,7 +45,7 @@ export const PROJECTS: Project[] = [
       start: "12.2024",
       end: "04.2025",
     },
-    link: "#",
+    link: "https://github.com/Joselay/jelly-saas",
     skills: ["Task Management", "Inertia.js", "WebSocket", "Real-time"],
     description:
       "Task management app built on Inertia.js with real-time WebSocket updates in 2025.",
@@ -57,7 +57,7 @@ export const PROJECTS: Project[] = [
       start: "07.2024",
       end: "05.2025",
     },
-    link: "#",
+    link: "https://github.com/Joselay/nextstore",
     skills: ["E-commerce", "Digital Products", "Marketplace"],
     description:
       "Digital products marketplace (phones, desktops, MacBooks) built in 2024.",
