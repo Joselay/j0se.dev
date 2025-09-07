@@ -14,17 +14,16 @@ export const EXPERIENCES: Experience[] = [
         },
         employmentType: "Full-time",
         icon: "code",
-        description: `- Develop Cigardash web application using [Next.js](https://nextjs.org), [Zustand](https://zustand-demo.pmnd.rs), [nuqs](https://nuqs.dev), [SWR](https://swr.vercel.app), and modern frontend technologies.
-- Develop GO. by Wonderpass service platform with multiple integrated mini-services including Cinema, Tickets, Taxi, Ferry, Bus, Dining, and eSIM.
-  - Build cinema ticket booking service with seamless user experience.
-  - Build event ticketing service for concerts and entertainment bookings.
-  - Build ride-hailing and transportation booking solutions.
-  - Build ferry and bus ticketing services for public transportation.
-  - Build restaurant reservation and dining experience services.
-  - Build digital SIM card management and telecommunications services.
-- Implement robust frontend solutions using Vue.js, shadcn vue, and motion vue for animations.
-- Ensure UI/UX consistency and adherence to design standards across all services.
-- Collaborate with banks and fintech companies for payment integration and financial services.`,
+        description: `- Develop [Cigardash](https://cigardash.netlify.app) web application using [Next.js](https://nextjs.org), [Zustand](https://zustand-demo.pmnd.rs), [nuqs](https://nuqs.dev), [SWR](https://swr.vercel.app), and modern frontend technologies.
+- Develop **GO. by Wonderpass**, a mini-service platform that integrates with banking and payment services, serving as the parent ecosystem for multiple child services:
+  - **[GO-Cinema](https://cinema.go-wonderpass.com)**: Cinema ticket booking service with seamless user experience
+  - **[GO-Tickets](https://tickets.go-wonderpass.com)**: Event ticketing service for concerts and entertainment bookings  
+  - **GO-Taxi**: Ride-hailing and transportation booking solutions
+  - **GO-Ferry**: Ferry ticketing services for public transportation
+  - **GO-Bus**: Bus ticketing services for public transportation
+  - **GO-Dining**: Restaurant reservation and dining experience services
+  - **GO-eSIM**: Digital SIM card management and telecommunications services
+- Implement robust frontend solutions using Vue.js, shadcn vue, and motion vue for animations, ensure UI/UX consistency and adherence to design standards across all GO services, and integrate with banking and payment providers including Bakong (central bank digital currency), Wing Bank, U-Pay (fintech/PSP), Phillip Bank, and TrueMoney (e-wallet service) for seamless payment processing.`,
         skills: [
           "TypeScript",
           "React",
