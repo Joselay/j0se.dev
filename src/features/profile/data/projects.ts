@@ -2,6 +2,32 @@ import type { Project } from "../types/projects";
 
 export const PROJECTS: Project[] = [
   {
+    id: "jelly-cinema",
+    title: "Jelly Cinema",
+    period: {
+      start: "06.2024",
+      end: "03.2025",
+    },
+    link: "#",
+    skills: ["Mobile App", "Flutter", "Cinema", "Movie Streaming"],
+    description:
+      "Movie streaming and entertainment mobile application built with Flutter for comprehensive cinema experience.",
+    logo: "/icons/jelly.svg",
+  },
+  {
+    id: "goody-shop",
+    title: "GOODY SHOP",
+    period: {
+      start: "08.2024",
+      end: "02.2025",
+    },
+    link: "https://apps.apple.com/kh/app/goody-shop/id1617240445",
+    skills: ["Mobile App", "E-commerce", "iOS", "Android"],
+    description:
+      "Mobile e-commerce app available on both App Store and Google Play Store. [Play Store](https://play.google.com/store/apps/details?id=com.coolbeans.goody&hl=en)",
+    logo: "/icons/goody.jpg",
+  },
+  {
     id: "lumo-cinema",
     title: "Lumo Cinema",
     period: {
