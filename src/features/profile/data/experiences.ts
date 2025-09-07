@@ -14,9 +14,17 @@ export const EXPERIENCES: Experience[] = [
         },
         employmentType: "Full-time",
         icon: "code",
-        description: `- Developing frontend solutions and user interfaces.
-- Working with modern frontend technologies and frameworks.
-- Collaborating with cross-functional teams to deliver quality products.`,
+        description: `- Develop Cigardash web application using [Next.js](https://nextjs.org), [Zustand](https://zustand-demo.pmnd.rs), [nuqs](https://nuqs.dev), [SWR](https://swr.vercel.app), and modern frontend technologies.
+- Develop GO. by Wonderpass service platform with multiple integrated mini-services including Cinema, Tickets, Taxi, Ferry, Bus, Dining, and eSIM.
+  - Build cinema ticket booking service with seamless user experience.
+  - Build event ticketing service for concerts and entertainment bookings.
+  - Build ride-hailing and transportation booking solutions.
+  - Build ferry and bus ticketing services for public transportation.
+  - Build restaurant reservation and dining experience services.
+  - Build digital SIM card management and telecommunications services.
+- Implement robust frontend solutions using Vue.js, shadcn vue, and motion vue for animations.
+- Ensure UI/UX consistency and adherence to design standards across all services.
+- Collaborate with banks and fintech companies for payment integration and financial services.`,
         skills: [
           "TypeScript",
           "React",
