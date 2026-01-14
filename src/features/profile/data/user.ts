@@ -17,7 +17,7 @@ export const USER: User = {
   address: "Russei Keo, Phnom Penh, Cambodia",
   phoneNumber: "Kzg1NTkzNTk2MzI2", // E.164 format, base64 encoded (https://t.io.vn/base64-string-converter)
   email: "dG9uZ21lbmdsYXlzbWFlNUBnbWFpbC5jb20=", // base64 encoded
-  website: "https://menglay.com",
+  website: "https://j0se.dev",
   jobTitle: "Frontend Developer",
   jobs: [
     {
