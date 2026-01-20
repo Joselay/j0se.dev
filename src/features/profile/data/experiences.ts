@@ -15,7 +15,7 @@ export const EXPERIENCES: Experience[] = [
         employmentType: "Full-time",
         icon: "code",
         description: `- Develop [Cigardash](https://cigardash.netlify.app) web application using [Next.js](https://nextjs.org), [Zustand](https://zustand-demo.pmnd.rs), [nuqs](https://nuqs.dev), [SWR](https://swr.vercel.app), and modern frontend technologies.
-- Develop **GO. by Wonderpass**, a mini-service platform that integrates with banking and payment services, serving as the parent ecosystem for multiple child services:
+- Develop **GO. by Wonderpass**, a mini-service platform that integrates with banking and payment services, serving as the parent ecosystem for multiple child services *(Note: These are mini apps designed for native mobile apps. Please view in mobile screen size for the intended experience; UI may break on desktop web)*:
   - **[GO-Cinema](https://cinema.go-wonderpass.com)**: Cinema ticket booking service with seamless user experience
   - **[GO-Tickets](https://tickets.go-wonderpass.com)**: Event ticketing service for concerts and entertainment bookings  
   - **GO-Taxi**: Ride-hailing and transportation booking solutions
@@ -51,7 +51,7 @@ export const EXPERIENCES: Experience[] = [
         employmentType: "Full-time",
         icon: "code",
         description: `- Developed Goody Ecommerce application with comprehensive shopping features and user experience.
-- Built Jelly Cinema application for movie streaming and entertainment services.
+- Built [Jelly Jelly App](https://www.jellyjelly.app) for cinema and events ticket booking ([Play Store](https://play.google.com/store/apps/details?id=app.jellyjelly.prod) | [App Store](https://apps.apple.com/us/app/jelly-jelly-app/id6746470800)).
 - Implemented cross-platform mobile solutions using Flutter framework.
 - Ensured UI/UX consistency and adherence to mobile design standards.
 - Developed and maintained core features to enhance app functionality and user experience.
