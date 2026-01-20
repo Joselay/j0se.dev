@@ -1,115 +1,48 @@
-import { FlatCompat } from "@eslint/eslintrc";
-// import boundaries from "eslint-plugin-boundaries";
+import { defineConfig, globalIgnores } from "eslint/config";
+import nextPlugin from "@next/eslint-plugin-next";
+import reactPlugin from "eslint-plugin-react";
+import reactHooksPlugin from "eslint-plugin-react-hooks";
+import tsPlugin from "@typescript-eslint/eslint-plugin";
+import tsParser from "@typescript-eslint/parser";
 import simpleImportSort from "eslint-plugin-simple-import-sort";
-import { dirname } from "path";
-import { fileURLToPath } from "url";
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
-
-const compat = new FlatCompat({
-  baseDirectory: __dirname,
-});
-
-/**
- * @type {import("eslint").Linter.Config}
- * */
-const eslintConfig = [
-  ...compat.extends("next/core-web-vitals", "next/typescript", "prettier"),
+const eslintConfig = defineConfig([
+  globalIgnores([".next/**", "out/**", "build/**", "next-env.d.ts"]),
   {
     files: ["**/*.{ts,tsx}"],
-    rules: {
-      "@typescript-eslint/consistent-type-imports": "error",
-      "@typescript-eslint/no-import-type-side-effects": "error",
+    languageOptions: {
+      parser: tsParser,
+      parserOptions: {
+        ecmaVersion: "latest",
+        sourceType: "module",
+        ecmaFeatures: {
+          jsx: true,
+        },
+      },
     },
-  },
-  {
     plugins: {
+      "@next/next": nextPlugin,
+      react: reactPlugin,
+      "react-hooks": reactHooksPlugin,
+      "@typescript-eslint": tsPlugin,
       "simple-import-sort": simpleImportSort,
     },
     rules: {
+      ...nextPlugin.configs.recommended.rules,
+      ...nextPlugin.configs["core-web-vitals"].rules,
+      ...reactHooksPlugin.configs.recommended.rules,
+      "@typescript-eslint/consistent-type-imports": "error",
+      "@typescript-eslint/no-import-type-side-effects": "error",
       "simple-import-sort/imports": "error",
       "simple-import-sort/exports": "error",
+      "react-hooks/set-state-in-effect": "off",
+    },
+    settings: {
+      react: {
+        version: "detect",
+      },
     },
   },
-  // {
-  //   // Thanks @WebDevSimplified
-  //   plugins: {
-  //     boundaries,
-  //   },
-  //   settings: {
-  //     "boundaries/include": ["src/**/*"],
-  //     "boundaries/ignore": ["src/scripts/**/*", "src/__registry__/**/*"],
-  //     "boundaries/elements": [
-  //       {
-  //         mode: "full",
-  //         type: "shared",
-  //         pattern: [
-  //           "src/components/**/*",
-  //           "src/config/**/*",
-  //           "src/data/**/*",
-  //           "src/hooks/**/*",
-  //           "src/lib/**/*",
-  //           "src/registry/**/*",
-  //           "src/styles/**/*",
-  //           "src/types/**/*",
-  //           "src/utils/**/*",
-  //         ],
-  //       },
-  //       {
-  //         mode: "full",
-  //         type: "feature",
-  //         capture: ["featureName"],
-  //         pattern: ["src/features/*/**/*"],
-  //       },
-  //       {
-  //         mode: "full",
-  //         type: "app",
-  //         capture: ["_", "fileName"],
-  //         pattern: ["src/app/**/*"],
-  //       },
-  //       {
-  //         mode: "full",
-  //         type: "neverImport",
-  //         pattern: ["src/*"],
-  //       },
-  //     ],
-  //   },
-  //   rules: {
-  //     "boundaries/no-unknown": ["error"],
-  //     "boundaries/no-unknown-files": ["error"],
-  //     "boundaries/element-types": [
-  //       "error",
-  //       {
-  //         default: "disallow",
-  //         rules: [
-  //           {
-  //             from: ["shared"],
-  //             allow: ["shared"],
-  //           },
-  //           {
-  //             from: ["feature"],
-  //             allow: [
-  //               "shared",
-  //               ["feature", { featureName: "${from.featureName}" }],
-  //             ],
-  //           },
-  //           {
-  //             from: ["app", "neverImport"],
-  //             allow: ["shared", "feature"],
-  //           },
-  //           {
-  //             from: ["app"],
-  //             allow: [
-  //               ["app", { fileName: "*.css" }],
-  //               ["app", { fileName: "*.{ts,tsx}" }],
-  //             ],
-  //           },
-  //         ],
-  //       },
-  //     ],
-  //   },
-  // },
-];
+]);
 
 export default eslintConfig;
