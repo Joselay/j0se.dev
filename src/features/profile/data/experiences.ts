@@ -50,7 +50,7 @@ export const EXPERIENCES: Experience[] = [
         },
         employmentType: "Full-time",
         icon: "code",
-        description: `- Developed Goody Ecommerce application with comprehensive shopping features and user experience.
+        description: `- Developed [GOODY SHOP](https://goodyshop.online) ecommerce application with comprehensive shopping features and user experience ([Web](https://goodyshop.online) | [App Store](https://apps.apple.com/kh/app/goody-shop/id1617240445) | [Play Store](https://play.google.com/store/apps/details?id=com.coolbeans.goody&hl=en)).
 - Built [Jelly Jelly App](https://www.jellyjelly.app) for cinema and events ticket booking ([Play Store](https://play.google.com/store/apps/details?id=app.jellyjelly.prod) | [App Store](https://apps.apple.com/us/app/jelly-jelly-app/id6746470800)).
 - Implemented cross-platform mobile solutions using Flutter framework.
 - Ensured UI/UX consistency and adherence to mobile design standards.
