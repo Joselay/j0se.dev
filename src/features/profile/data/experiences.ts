@@ -7,8 +7,8 @@ export const EXPERIENCES: Experience[] = [
     companyLogo: "/icons/wonderpass.jpg",
     positions: [
       {
-        id: "wonderpass-mid-frontend",
-        title: "Mid Frontend Developer",
+        id: "wonderpass-senior-fullstack",
+        title: "Senior Full Stack Developer",
         employmentPeriod: {
           start: "03.2025",
         },
