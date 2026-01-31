@@ -4,6 +4,7 @@ import type { Metadata, Viewport } from "next";
 import Script from "next/script";
 import type { WebSite, WithContext } from "schema-dts";
 
+import { ConsentManager } from "@/components/consent-manager";
 import { Providers } from "@/components/providers";
 import { META_THEME_COLORS, SITE_INFO } from "@/config/site";
 import { USER } from "@/features/profile/data/user";
@@ -126,7 +127,9 @@ export default function RootLayout({
       </head>
 
       <body suppressHydrationWarning>
-        <Providers>{children}</Providers>
+        <Providers>
+          <ConsentManager>{children}</ConsentManager>
+        </Providers>
       </body>
     </html>
   );
