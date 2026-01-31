@@ -56,7 +56,6 @@ export function ConsentManager({ children }: { children: React.ReactNode }) {
       <ConsentManagerDialog
         theme={{
           "dialog.root": {
-            noStyle: true,
             style: {
               "--dialog-card-radius": "1rem",
 
@@ -66,6 +65,9 @@ export function ConsentManager({ children }: { children: React.ReactNode }) {
               "--dialog-border-color": "var(--border)",
               "--dialog-border-color-dark": "var(--border)",
             },
+          },
+          "dialog.card": {
+            noStyle: true,
             className:
               "rounded-2xl border-none bg-background shadow-popover ring ring-popover-border",
           },
