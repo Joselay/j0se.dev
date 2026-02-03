@@ -11,17 +11,17 @@ export const USER: User = {
   bio: "Creating with code. Small details matter.",
   flipSentences: [
     "Creating with code. Small details matter.",
-    "Senior Full Stack Developer",
+    "Mid Full Stack Developer",
     "Open Source Contributor",
   ],
   address: "Russei Keo, Phnom Penh, Cambodia",
   phoneNumber: "Kzg1NTkzNTk2MzI2", // E.164 format, base64 encoded (https://t.io.vn/base64-string-converter)
   email: "dG9uZ21lbmdsYXlzbWFlNUBnbWFpbC5jb20=", // base64 encoded
   website: "https://j0se.dev",
-  jobTitle: "Senior Full Stack Developer",
+  jobTitle: "Mid Full Stack Developer",
   jobs: [
     {
-      title: "Senior Full Stack Developer",
+      title: "Mid Full Stack Developer",
       company: "Wonderpass",
       website: "https://wonderpass.asia",
     },
@@ -32,7 +32,7 @@ export const USER: User = {
     },
   ],
   about: `
-Hello, World! I am Smae Tongmenglay (nickname Jose) — a Senior Full Stack Developer passionate about creating seamless, user-centric web and mobile applications with intuitive and engaging designs.
+Hello, World! I am Smae Tongmenglay (nickname Jose) — a Mid Full Stack Developer passionate about creating seamless, user-centric web and mobile applications with intuitive and engaging designs.
 
 With 2+ years of experience, I specialize in building high-quality applications using Next.js, Vue.js, Flutter, Remix.js, and other modern front-end technologies. Beyond work, I enjoy exploring new frameworks and turning ideas into reality through personal projects.
 
