@@ -5,7 +5,7 @@ export const USER: User = {
   firstName: "Jose",
   lastName: "",
   displayName: "Jose",
-  username: "ncdai",
+  username: "Joselay",
   gender: "male",
   pronouns: "he/him",
   bio: "Creating with code. Small details matter.",
@@ -41,20 +41,16 @@ Currently, I'm working on GO. by Wonderpass, a main service platform that integr
 Let's connect and collaborate!
   `,
   avatar: meImage.src,
-  ogImage:
-    "https://assets.chanhdai.com/images/screenshot-og-image-light.png?t=1755355653",
+  ogImage: "/icons/j.png",
   namePronunciationUrl: "/voices/jose.mp3",
   keywords: [
-    "ncdai",
-    "nguyenchanhdai",
-    "nguyen chanh dai",
-    "chanhdai",
-    "chanh dai",
-    "iamncdai",
+    "jose",
+    "joselay",
+    "smae tongmenglay",
+    "j0se.dev",
+    "full stack developer",
+    "wonderpass",
     "lumo",
-    "zadark",
-    "nguyễn chánh đại",
-    "chánh đại",
   ],
   dateCreated: "2025-09-07", // YYYY-MM-DD
 };
