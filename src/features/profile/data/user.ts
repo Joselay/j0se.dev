@@ -21,14 +21,14 @@ export const USER: User = {
   jobTitle: "Full Stack Developer",
   jobs: [
     {
-      title: "Mid Frontend Developer",
+      title: "Full Stack Developer",
       company: "Wonderpass",
       website: "https://wonderpass.asia",
     },
     {
       title: "Founder",
       company: "Lumo",
-      website: "https://github.com/Joselay/lumo-backend",
+      website: "https://github.com/Joselay/lumo-app",
     },
   ],
   about: `
