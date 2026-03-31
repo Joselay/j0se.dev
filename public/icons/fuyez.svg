@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <style>
+    text { fill: #141414; }
+    @media (prefers-color-scheme: dark) {
+      text { fill: #fafafa; }
+    }
+  </style>
+  <text x="3" y="27" font-family="'JetBrains Mono', ui-monospace, monospace" font-weight="700" font-size="30" letter-spacing="-3">F<tspan fill="#e7000b">.</tspan></text>
+</svg>

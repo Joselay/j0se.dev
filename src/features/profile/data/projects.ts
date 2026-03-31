@@ -42,6 +42,7 @@ const PROJECTS_RAW: Project[] = [
     },
     link: "#",
     skills: ["AI Chatbot", "Claude", "Gemini", "Vercel AI SDK", "Next.js"],
+    logo: "/icons/sv-agent.png",
     description:
       "AI chatbot assistant for internal operations, powered by Claude and Gemini with tool use for querying production MySQL databases, sending bulk emails, and monitoring service health.",
   },
@@ -51,8 +52,9 @@ const PROJECTS_RAW: Project[] = [
     period: {
       start: "02.2026",
     },
-    link: "#",
+    link: "https://www.fuyez.ca/",
     skills: ["Educational Platform", "Multi-language", "AI", "Next.js"],
+    logo: "/icons/fuyez.svg",
     description:
       "Educational platform about economic pressure and systemic inequality, with multi-language blog (EN/FR), email capture surveys, and admin dashboard.",
   },
@@ -64,6 +66,7 @@ const PROJECTS_RAW: Project[] = [
     },
     link: "#",
     skills: ["Mobile App", "React Native", "Expo", "Gamification", "Convex"],
+    logo: "/icons/ondeck.png",
     description:
       "Mobile attendance and gamification platform with QR code clock-in/out, points/levels/badges system, streak multipliers, and Hall of Fame/Wall of Shame leaderboards.",
   },
@@ -73,22 +76,13 @@ const PROJECTS_RAW: Project[] = [
     period: {
       start: "11.2025",
     },
-    link: "#",
+    link: "https://jkeydge.com/",
     skills: ["E-commerce", "Shopify Hydrogen", "Remix", "Multi-language"],
+    logo: "/icons/j-keydge.svg",
     description:
       "Premium fashion e-commerce storefront for a French slack jacket brand with wholesale platform, multi-language support (EN/FR), customer accounts, and order management.",
   },
-  {
-    id: "asept-corp",
-    title: "ASEPT Corp Dashboard",
-    period: {
-      start: "10.2025",
-    },
-    link: "#",
-    skills: ["Dashboard", "Convex", "HeroUI", "Multi-language"],
-    description:
-      "Corporate dashboard for managing products, categories, and blog content with multi-language support (EN/FR), Cloudinary image management, and rich text editing.",
-  },
+
   {
     id: "cigardash",
     title: "Cigardash",
@@ -109,9 +103,10 @@ const PROJECTS_RAW: Project[] = [
       start: "08.2025",
       end: "10.2025",
     },
-    link: "#",
+    link: "https://github.com/Joselay/lumo-app",
     skills: ["Cinema", "Ticket Booking", "MCP"],
     description: "Cinema ticket booking app that uses MCP built in 2025.",
+    logo: "/icons/lumo.png",
   },
   {
     id: "jelly-task-management",

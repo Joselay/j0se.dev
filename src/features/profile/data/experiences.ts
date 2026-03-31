@@ -174,9 +174,10 @@ export const EXPERIENCES: Experience[] = [
         title: "SETEC Institute",
         employmentPeriod: {
           start: "2022",
+          end: "2026",
         },
         icon: "education",
-        description: `- Currently studying for a Bachelor's degree in Management Information Systems.
+        description: `- Graduated with a Bachelor's degree in Management Information Systems.
 - Advanced English proficiency level.
 - Completed several projects, including:
   - FoodFarm Ecommerce — Food selling platform built in 2023

@@ -32,6 +32,7 @@ export function ProjectItem({
   const { start, end } = project.period;
   const isOngoing = !end;
   const isGitHubLink = project.link.includes("github.com");
+  const hasLink = project.link !== "#";
 
   return (
     <Collapsible defaultOpen={project.isExpanded} asChild>
@@ -84,21 +85,12 @@ export function ProjectItem({
                 </dl>
               </div>
 
-              <SimpleTooltip
-                content={
-                  project.id === "jelly-cinema"
-                    ? "Not yet in production"
-                    : isGitHubLink
-                      ? "Open GitHub Link"
-                      : "Open Project Link"
-                }
-              >
-                {project.id === "jelly-cinema" ? (
-                  <div className="relative flex size-6 shrink-0 cursor-not-allowed items-center justify-center text-muted-foreground/50 after:absolute after:-inset-2">
-                    <LinkIcon className="pointer-events-none size-4" />
-                    <span className="sr-only">Link not available</span>
-                  </div>
-                ) : (
+              {hasLink ? (
+                <SimpleTooltip
+                  content={
+                    isGitHubLink ? "Open GitHub Link" : "Open Project Link"
+                  }
+                >
                   <a
                     className="relative flex size-6 shrink-0 items-center justify-center text-muted-foreground after:absolute after:-inset-2 hover:text-foreground"
                     href={addQueryParams(project.link, UTM_PARAMS)}
@@ -112,8 +104,10 @@ export function ProjectItem({
                     )}
                     <span className="sr-only">Open Project Link</span>
                   </a>
-                )}
-              </SimpleTooltip>
+                </SimpleTooltip>
+              ) : (
+                <div className="size-6 shrink-0" />
+              )}
 
               <div
                 className="shrink-0 text-muted-foreground [&_svg]:size-4"
