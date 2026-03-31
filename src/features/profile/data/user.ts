@@ -22,8 +22,8 @@ export const USER: User = {
   jobs: [
     {
       title: "Full Stack Developer",
-      company: "Wonderpass",
-      website: "https://wonderpass.asia",
+      company: "Haystack Labs",
+      website: "https://haystack.global",
     },
     {
       title: "Founder",
@@ -34,9 +34,11 @@ export const USER: User = {
   about: `
 Hello, World! I am Smae Tongmenglay (nickname Jose) — a Full Stack Developer passionate about creating seamless, user-centric web and mobile applications with intuitive and engaging designs.
 
-With 2+ years of experience, I specialize in building high-quality applications using Next.js, Vue.js, Flutter, Remix.js, and other modern front-end technologies. Beyond work, I enjoy exploring new frameworks and turning ideas into reality through personal projects.
+With 3+ years of experience, I specialize in building high-quality applications using Next.js, React Native, Vue.js, Shopify Hydrogen, Go, and other modern technologies — spanning frontend, backend, mobile, and DevOps.
 
-Currently, I'm working on GO. by Wonderpass, a main service platform that integrates multiple mini-services: [Go-Cinema](https://cinema.go-wonderpass.com) for cinema ticket booking, [Go-Tickets](https://tickets.go-wonderpass.com) for events like concerts, [Go-Dining](https://dining.go-wonderpass.com) for restaurant reservations, [Go-Taxi](https://taxi.go-wonderpass.com) for taxi bookings, [Go-Ferry](https://ferry.go-wonderpass.com) for ferry bookings, [Go-Bus](https://bus.go-wonderpass.com) for bus bookings, and future expansions such as Go-eSIM. All of these projects are built in collaboration with popular banks and fintech companies in Cambodia, including [Bakong](https://bakong.nbc.gov.kh), [Wing](https://www.wingbank.com.kh/en), [Phillip](https://www.phillipbank.com.kh), [U-Pay](https://www.u-pay.com), and [TrueMoney](https://www.truemoney.com.kh).
+Currently, I'm working at Haystack Labs, where I build and maintain a range of products including Haystack Hub (an AI-powered email marketing command center), SV Agent (an AI chatbot for internal operations powered by Claude and Gemini), Fuyez (an educational platform), OnDeck (a mobile attendance gamification app), J-Keydge (a premium fashion e-commerce on Shopify), and more.
+
+Beyond work, I'm an active open source contributor and enjoy exploring new frameworks, integrating AI into real-world tools, and turning ideas into reality through personal projects.
 
 Let's connect and collaborate!
   `,
@@ -49,7 +51,8 @@ Let's connect and collaborate!
     "smae tongmenglay",
     "j0se.dev",
     "full stack developer",
-    "wonderpass",
+    "haystack labs",
+    "haystack",
     "lumo",
   ],
   dateCreated: "2025-09-07", // YYYY-MM-DD

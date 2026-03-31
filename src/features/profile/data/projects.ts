@@ -23,6 +23,73 @@ const sortProjects = (projects: Project[]) => {
 
 const PROJECTS_RAW: Project[] = [
   {
+    id: "haystack-hub",
+    title: "Haystack Hub",
+    period: {
+      start: "03.2026",
+    },
+    link: "#",
+    skills: ["SaaS", "Email Marketing", "AI", "CRM", "Next.js"],
+    description:
+      "Centralized SaaS command center for managing email marketing across multiple projects, featuring contact CRM, drip campaigns, broadcast emails, blog CMS, AI-powered content generation, and analytics dashboard.",
+    logo: "/icons/haystack.jpg",
+  },
+  {
+    id: "sv-agent",
+    title: "SV Agent",
+    period: {
+      start: "03.2026",
+    },
+    link: "#",
+    skills: ["AI Chatbot", "Claude", "Gemini", "Vercel AI SDK", "Next.js"],
+    description:
+      "AI chatbot assistant for internal operations, powered by Claude and Gemini with tool use for querying production MySQL databases, sending bulk emails, and monitoring service health.",
+  },
+  {
+    id: "fuyez",
+    title: "Fuyez",
+    period: {
+      start: "02.2026",
+    },
+    link: "#",
+    skills: ["Educational Platform", "Multi-language", "AI", "Next.js"],
+    description:
+      "Educational platform about economic pressure and systemic inequality, with multi-language blog (EN/FR), email capture surveys, and admin dashboard.",
+  },
+  {
+    id: "ondeck-app",
+    title: "OnDeck",
+    period: {
+      start: "12.2025",
+    },
+    link: "#",
+    skills: ["Mobile App", "React Native", "Expo", "Gamification", "Convex"],
+    description:
+      "Mobile attendance and gamification platform with QR code clock-in/out, points/levels/badges system, streak multipliers, and Hall of Fame/Wall of Shame leaderboards.",
+  },
+  {
+    id: "j-keydge",
+    title: "J-Keydge",
+    period: {
+      start: "11.2025",
+    },
+    link: "#",
+    skills: ["E-commerce", "Shopify Hydrogen", "Remix", "Multi-language"],
+    description:
+      "Premium fashion e-commerce storefront for a French slack jacket brand with wholesale platform, multi-language support (EN/FR), customer accounts, and order management.",
+  },
+  {
+    id: "asept-corp",
+    title: "ASEPT Corp Dashboard",
+    period: {
+      start: "10.2025",
+    },
+    link: "#",
+    skills: ["Dashboard", "Convex", "HeroUI", "Multi-language"],
+    description:
+      "Corporate dashboard for managing products, categories, and blog content with multi-language support (EN/FR), Cloudinary image management, and rich text editing.",
+  },
+  {
     id: "cigardash",
     title: "Cigardash",
     period: {
@@ -34,18 +101,6 @@ const PROJECTS_RAW: Project[] = [
     description:
       "Business dashboard application providing comprehensive analytics and data visualization for cigar retail management.",
     logo: "/icons/cigardash.png",
-  },
-  {
-    id: "go-by-wonderpass",
-    title: "GO. by Wonderpass",
-    period: {
-      start: "03.2025",
-    },
-    link: "#",
-    skills: ["Mobile App", "Flutter", "Banking", "Financial Services"],
-    description:
-      "Mobile banking application integrating comprehensive financial services and digital payment solutions built with Flutter.",
-    logo: "/icons/go.jpg",
   },
   {
     id: "lumo-cinema",

@@ -2,6 +2,45 @@ import type { Experience } from "../types/experiences";
 
 export const EXPERIENCES: Experience[] = [
   {
+    id: "haystack-labs",
+    companyName: "Haystack Labs",
+    companyLogo: "/icons/haystack.jpg",
+    positions: [
+      {
+        id: "haystack-labs-fullstack",
+        title: "Full Stack Developer",
+        employmentPeriod: {
+          start: "03.2026",
+        },
+        employmentType: "Full-time",
+        icon: "code",
+        description: `- Build **Haystack Hub** — centralized SaaS command center for managing email marketing across multiple projects, featuring contact CRM, drip campaigns, broadcast emails, blog CMS, AI-powered content generation, and analytics dashboard. Built with Next.js 16, Drizzle ORM, Neon PostgreSQL, Resend, and Vercel AI SDK.
+- Develop **SV Agent** — AI chatbot assistant for internal operations, powered by Claude and Gemini with tool use for querying production MySQL databases (~170 tables across 4 databases), sending bulk emails via Resend, and monitoring service health. Features streaming chat, token usage tracking, and 48 composable AI UI components. Built with Next.js 16, Vercel AI SDK, and Better Auth.
+- Build **Fuyez** — educational platform about economic pressure and systemic inequality, with multi-language blog (EN/FR), email capture surveys, and admin dashboard for content management. Built with Next.js 16, Drizzle ORM, and Deepseek AI integration.
+- Develop **OnDeck App** — mobile attendance and gamification platform with QR code clock-in/out, points/levels/badges system, streak multipliers, and Hall of Fame/Wall of Shame leaderboards. Built with React Native Expo, Convex real-time backend, and Nativewind.
+- Build **ASEPT Corp Dashboard** — corporate dashboard for managing products, categories, and blog content with multi-language support (EN/FR), Cloudinary image management, and rich text editing. Built with Next.js 15, Convex, HeroUI, and TipTap.
+- Develop **J-Keydge Shopify** — premium fashion e-commerce storefront for a French slack jacket brand with wholesale platform, multi-language support (EN/FR), customer accounts, order management, and blog. Built with Shopify Hydrogen, Remix, Tailwind CSS, and Resend.
+- Develop **Haystack Global** website and **Haystack Blog**.`,
+        skills: [
+          "TypeScript",
+          "React",
+          "Next.js",
+          "React Native",
+          "Vue.js",
+          "Go",
+          "Node.js",
+          "AI/LLM Integration",
+          "Vercel AI SDK",
+          "Shopify",
+          "DevOps",
+          "Full Stack Development",
+        ],
+        isExpanded: true,
+      },
+    ],
+    isCurrentEmployer: true,
+  },
+  {
     id: "wonderpass",
     companyName: "Wonderpass",
     companyLogo: "/icons/wonderpass.jpg",
@@ -11,13 +50,14 @@ export const EXPERIENCES: Experience[] = [
         title: "Full Stack Developer",
         employmentPeriod: {
           start: "03.2025",
+          end: "03.2026",
         },
         employmentType: "Full-time",
         icon: "code",
-        description: `- Develop [Cigardash](https://cigardash.netlify.app) web application using [Next.js](https://nextjs.org), [Zustand](https://zustand-demo.pmnd.rs), [nuqs](https://nuqs.dev), [SWR](https://swr.vercel.app), and modern frontend technologies.
-- Develop **GO. by Wonderpass**, a mini-service platform that integrates with banking and payment services, serving as the parent ecosystem for multiple child services *(Note: These are mini apps designed for native mobile apps. Please view in mobile screen size for the intended experience; UI may break on desktop web)*:
-  - **[GO-Cinema](https://cinema.go-wonderpass.com)**: Cinema ticket booking service with seamless user experience
-  - **[GO-Tickets](https://tickets.go-wonderpass.com)**: Event ticketing service for concerts and entertainment bookings  
+        description: `- Develop **Cigardash** web application using Next.js, Zustand, nuqs, SWR, and modern frontend technologies.
+- Develop **GO. by Wonderpass**, a mini-service platform that integrates with banking and payment services, serving as the parent ecosystem for multiple child services:
+  - **GO-Cinema**: Cinema ticket booking service with seamless user experience
+  - **GO-Tickets**: Event ticketing service for concerts and entertainment bookings
   - **GO-Taxi**: Ride-hailing and transportation booking solutions
   - **GO-Ferry**: Ferry ticketing services for public transportation
   - **GO-Bus**: Bus ticketing services for public transportation
@@ -27,6 +67,11 @@ export const EXPERIENCES: Experience[] = [
         skills: [
           "TypeScript",
           "React",
+          "Next.js",
+          "Vue.js",
+          "Zustand",
+          "SWR",
+          "Payment Integration",
           "Frontend Development",
           "Teamwork",
           "Problem-solving",
@@ -34,7 +79,6 @@ export const EXPERIENCES: Experience[] = [
         isExpanded: true,
       },
     ],
-    isCurrentEmployer: true,
   },
   {
     id: "coolbeans",
