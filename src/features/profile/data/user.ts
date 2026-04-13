@@ -11,17 +11,17 @@ export const USER: User = {
   bio: "Creating with code. Small details matter.",
   flipSentences: [
     "Creating with code. Small details matter.",
-    "Full Stack Developer",
+    "Full-Stack Engineer",
     "Open Source Contributor",
   ],
   address: "Russei Keo, Phnom Penh, Cambodia",
   phoneNumber: "Kzg1NTkzNTk2MzI2", // E.164 format, base64 encoded (https://t.io.vn/base64-string-converter)
   email: "dG9uZ21lbmdsYXlzbWFlNUBnbWFpbC5jb20=", // base64 encoded
   website: "https://j0se.dev",
-  jobTitle: "Full Stack Developer",
+  jobTitle: "Full-Stack Engineer",
   jobs: [
     {
-      title: "Full Stack Developer",
+      title: "Full-Stack Engineer",
       company: "Haystack Labs",
       website: "https://haystack.global",
     },
@@ -32,7 +32,7 @@ export const USER: User = {
     },
   ],
   about: `
-Hello, World! I am Smae Tongmenglay (nickname Jose) — a Full Stack Developer passionate about creating seamless, user-centric web and mobile applications with intuitive and engaging designs.
+Hello, World! I am Smae Tongmenglay (nickname Jose) — a Full-Stack Engineer passionate about creating seamless, user-centric web and mobile applications with intuitive and engaging designs.
 
 With 3+ years of experience, I specialize in building high-quality applications using Next.js, React Native, Vue.js, Shopify Hydrogen, Go, and other modern technologies — spanning frontend, backend, mobile, and DevOps.
 
@@ -50,7 +50,7 @@ Let's connect and collaborate!
     "joselay",
     "smae tongmenglay",
     "j0se.dev",
-    "full stack developer",
+    "full-stack engineer",
     "haystack labs",
     "haystack",
     "lumo",
