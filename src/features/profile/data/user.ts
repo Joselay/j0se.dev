@@ -8,20 +8,21 @@ export const USER: User = {
   username: "Joselay",
   gender: "male",
   pronouns: "he/him",
-  bio: "Creating with code. Small details matter.",
+  bio: "Agentic Engineer building products with code, AI agents, and a sharp eye for detail.",
   flipSentences: [
+    "Agentic Engineer",
+    "Building with Claude Code, Codex, and Pi",
     "Creating with code. Small details matter.",
-    "Full-Stack Engineer",
     "Open Source Contributor",
   ],
   address: "Russei Keo, Phnom Penh, Cambodia",
   phoneNumber: "Kzg1NTkzNTk2MzI2", // E.164 format, base64 encoded (https://t.io.vn/base64-string-converter)
   email: "dG9uZ21lbmdsYXlzbWFlNUBnbWFpbC5jb20=", // base64 encoded
   website: "https://j0se.dev",
-  jobTitle: "Full-Stack Engineer",
+  jobTitle: "Agentic Engineer",
   jobs: [
     {
-      title: "Full-Stack Engineer",
+      title: "Agentic Engineer",
       company: "Haystack Labs",
       website: "https://haystack.global",
     },
@@ -32,9 +33,11 @@ export const USER: User = {
     },
   ],
   about: `
-Hello, World! I am Smae Tongmenglay (nickname Jose) — a Full-Stack Engineer passionate about creating seamless, user-centric web and mobile applications with intuitive and engaging designs.
+Hello, World! I am Smae Tongmenglay (nickname Jose) — an Agentic Engineer passionate about creating seamless, user-centric web and mobile applications with intuitive and engaging designs.
 
-With 3+ years of experience, I specialize in building high-quality applications using Next.js, React Native, Vue.js, Shopify Hydrogen, Go, and other modern technologies — spanning frontend, backend, mobile, and DevOps.
+With 3+ years of experience, I combine full-stack product engineering with agentic AI workflows to build high-quality applications using Next.js, React Native, Vue.js, Shopify Hydrogen, Go, and other modern technologies — spanning frontend, backend, mobile, and DevOps.
+
+I have used Claude Code since its early release on the Max plan, later explored Codex, and now work primarily with Pi + GPT models to plan, implement, refactor, and ship faster.
 
 Currently, I'm working at Haystack Labs, where I build and maintain a range of products including Haystack Hub (an AI-powered email marketing command center), SV Agent (an AI chatbot for internal operations powered by Claude and Gemini), Fuyez (an educational platform), OnDeck (a mobile attendance gamification app), J-Keydge (a premium fashion e-commerce on Shopify), and more.
 
@@ -50,6 +53,13 @@ Let's connect and collaborate!
     "joselay",
     "smae tongmenglay",
     "j0se.dev",
+    "agentic engineer",
+    "agentic engineering",
+    "ai engineer",
+    "claude code",
+    "codex",
+    "pi coding agent",
+    "gpt models",
     "full-stack engineer",
     "haystack labs",
     "haystack",

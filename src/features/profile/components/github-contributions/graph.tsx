@@ -18,6 +18,7 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip";
 import { GITHUB_USERNAME } from "@/config/site";
+
 import type { GitHubContributionsData } from "../../data/github-contributions";
 
 export function GitHubContributionGraph({
